@@ -42,9 +42,9 @@
                     </j:otherwise>
                 </j:choose>
 
-                <footer ng-show="settings.showHeader">
+                <footer>
                     <notifier />
-                    <span class="plugin-author">Brought to you by <a href="http://smartcodeltd.co.uk" rel="external">Jan Molak</a></span>
+                    <span ng-show="settings.showHeader" class="plugin-author">Brought to you by <a href="http://smartcodeltd.co.uk" rel="external">Jan Molak</a></span>
                 </footer>
             </div>
 
